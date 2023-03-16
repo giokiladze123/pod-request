@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@400&display=swap');
+
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+.error{
+  display:none;
+}
+
+.right{
+  text-align: left;
+  display:block;
+  font-family: 'Chivo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FB3E3E;
+}
+
+body{
+  min-width:100vw;
+  min-height:100vh;
+  background-image: url(./images/MOBILE.jpg);
+}
+
+main{
+  padding:62px 24px 94px 24px;
+  text-align:center;
+  background: rgba(18, 23, 37, 0.9);
+}
+
+h1{
+  width:345px;
+  margin-left:-10px;
+  margin-top:57px;
+  font-family: 'Chivo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 38px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #54E6AF;
+}
+
+h1 span{
+   color:white;
+}
+
+.text{
+  margin-top:16px;
+  font-family: 'Chivo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #C2CBE5;
+}
+
+.icons{
+  margin-top:37px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;;
+  
+}
+
+.spotify{
+  width:56px;
+  height:17px;
+}
+
+.apple{
+  width:45px;
+  height:17px;
+}
+
+.google{
+  width:75px;
+  height:12px;
+}
+
+.pocket{
+  width:75px;
+  height:17px;
+}
+
+.input-mobile input{
+  margin-top:47px;
+  width:327px;
+  height:46px;
+  border-radius:28px;
+  background: #2C344B;
+  border:none;
+  font-family: 'Chivo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  padding:9px 200px 9px 39px;
+}
+
+.input-mobile input::placeholder{
+
+  opacity: 0.5;
+  
+}
+
+button{
+  margin-top:16px;
+  width:326px;
+  height:46px;
+  background: #54E6AF;
+  border-radius: 28px;
+  border:none;
+  font-family: 'Chivo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  color: #121725; 
+}
+
+.tabletimg{
+  display:none;
+}
+
+.input-tablet{
+  display:none;
+}
+
+.desktopimg{
+  display:none;
+}
+
+.pattern{
+  display:none;
+}
+
+
+@media screen and (min-width:768px) {
+
+  body{
+    background-image: none;
+  }
+
+  main{
+    padding:50px 94px 0 39px;
+    background: #121725
+
+  }
+
+
+  .header{
+    display:flex;
+    justify-content: space-between;
+  }
+
+  .logo{
+    width:130px;
+    height:56px;
+  }
+
+  .card{
+    position: relative;
+    margin-top:-509px;
+    background: #121725;
+    padding:93px 0 0 0 ;
+  }
+
+  .tabletimg{
+   margin-right:-95px;
+   margin-top:-50px;
+   display:block;
+  }
+
+
+
+  h1{
+    width:100%;
+    margin:0;
+    text-align: left;
+    font-family: 'Chivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #54E6AF;
+  }
+
+  .text{
+    margin-top:31px;
+    width:445px;
+    text-align: left;
+    font-family: 'Chivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #C2CBE5;
+  }
+
+  .input-mobile{
+    display:none;
+  }
+
+
+
+  .input-tablet{
+    margin-top:40px;
+    padding:5px 5px 5px 32px;
+    display:block;
+    display:flex;
+    justify-content: space-between;
+    width:427px;
+    height:56px;
+    background: #2C344B;
+    border-radius: 28px;
+    align-items:center;
+  }
+
+  .input-tablet input{ 
+   font-family: 'Chivo';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 28px;
+   color: #FFFFFF; 
+   background-color: transparent;
+   border:none;
+   outline: none;
+  }
+
+  .input-tablet button{
+    margin:0;
+    width:162px;
+    height:46px;
+    font-family: 'Chivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #121725;
+  }
+
+  .icons{
+    margin-top:64px;
+    gap:40px;
+    justify-content: left;
+    
+  }
+
+  .spotify {
+    width:96px;
+    height:29px;
+  }
+
+  .apple{
+    width:78px;
+    height:29px;
+  }
+
+  .google{
+    width:125px;
+    height:18px;
+  }
+
+  .pocket{
+    width:129px;
+    height:26px;
+  }
+
+  .pattern{
+    margin-top:153px;
+    margin-right:506px;
+ }
+
+ .pattern{
+  display:block;
+ }
+
+
+}
+
+@media screen and (min-width: 1440px) {
+
+  main{
+    padding:102px 552px 130px 165px;
+    position: relative;
+  }
+
+.tabletimg{
+  display:none;
+}
+
+.desktopimg{
+ margin-top:30px;
+  margin-right:-550px;
+  display:block;
+}
+
+.pattern{
+  margin:0;
+  position: absolute;
+  right:0;
+  bottom:78px;
+
+}
+
+  
+}
